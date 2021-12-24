@@ -9,17 +9,17 @@ const seasonSchema = new mongoose.Schema({
 
 const Season = mongoose.model("Season", seasonSchema);
 
-class seasonsContainer extends Component {
-    constructor(props) {
-        super(props);
-        this.state = {
-            data: []
-        }
-    };
-}
-componentDidMount() {
-    axios.get('https://localhost:3000/season')
-}
+// class seasonsContainer extends Component {
+//     constructor(props) {
+//         super(props);
+//         this.state = {
+//             data: []
+//         }
+//     };
+// }
+// componentDidMount() {
+//     axios.get('https://localhost:3001/season')
+// }
 
 
 
